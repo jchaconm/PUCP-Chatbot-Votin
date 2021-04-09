@@ -1,0 +1,114 @@
+version: "2.0"
+
+stories:
+- story: candidatotest
+  steps:
+  - intent: candidato
+  - action: utter_candidato
+- story: buttontest
+  steps:
+  - intent: button
+  - action: action_buttons_topics
+- story: eleccionhojavida
+  steps:
+  - intent: saludo
+  - action: utter_greet
+  - intent: seleccion_candidato
+  - action: utter_opcion_seleccion
+  - intent: opcion_seleccion_hoja
+  - action: utter_hojavida
+- story: elecciontemaplan
+  steps:
+  - intent: saludo
+  - action: utter_greet
+  - intent: seleccion_candidato
+  - action: utter_opcion_seleccion
+  - intent: opcion_seleccion_plan
+  - action: utter_tema_plan
+  - intent: tema_plan
+  - action: utter_opcion_plan
+  - intent: opcion_plan_visualizar
+  - action: utter_info_tema_plan
+
+- story: preguntaplaneconomia
+  steps:
+  - intent: saludo
+  - action: utter_greet
+  - intent: seleccion_candidato
+  - action: utter_opcion_seleccion
+  - intent: opcion_seleccion_plan
+  - action: utter_tema_plan
+  - intent: tema_plan
+  - action: utter_opcion_plan
+  - intent: opcion_plan_preguntar
+  - action: utter_solicitar_pregunta
+  - intent: pregunta_plan_economia
+  - action: utter_respuesta_pregunta
+
+
+- story: preguntaplansalud
+  steps:
+  - intent: saludo
+  - action: utter_greet
+  - intent: seleccion_candidato
+  - action: utter_opcion_seleccion
+  - intent: opcion_seleccion_plan
+  - action: utter_tema_plan
+  - intent: tema_plan
+  - action: utter_opcion_plan
+  - intent: opcion_plan_preguntar
+  - action: utter_solicitar_pregunta
+  - intent: pregunta_plan_salud
+  - action: utter_respuesta_pregunta
+
+- story: preguntaplaneducacion
+  steps:
+  - intent: saludo
+  - action: utter_greet
+  - intent: seleccion_candidato
+  - action: utter_opcion_seleccion
+  - intent: opcion_seleccion_plan
+  - action: utter_tema_plan
+  - intent: tema_plan
+  - action: utter_opcion_plan
+  - intent: opcion_plan_preguntar
+  - action: utter_solicitar_pregunta
+  - intent: pregunta_plan_educacion
+  - action: utter_respuesta_pregunta
+
+
+- story: preguntaplantrabajo
+  steps:
+  - intent: saludo
+  - action: utter_greet
+  - intent: seleccion_candidato
+  - action: utter_opcion_seleccion
+  - intent: opcion_seleccion_plan
+  - action: utter_tema_plan
+  - intent: tema_plan
+  - action: utter_opcion_plan
+  - intent: opcion_plan_preguntar
+  - action: utter_solicitar_pregunta
+  - intent: pregunta_plan_trabajo
+  - action: utter_respuesta_pregunta
+
+
+- story: preguntaplanseguridad
+  steps:
+  - intent: saludo
+  - action: utter_greet
+  - intent: seleccion_candidato
+  - action: utter_opcion_seleccion
+  - intent: opcion_seleccion_plan
+  - action: utter_tema_plan
+  - intent: tema_plan
+  - action: utter_opcion_plan
+  - intent: opcion_plan_preguntar
+  - action: utter_solicitar_pregunta
+  - intent: pregunta_plan_seguridad
+  - action: utter_respuesta_pregunta
+
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye

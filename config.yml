@@ -1,0 +1,16 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: es_core_news_md
+
+pipeline:
+  - name: "SpacyNLP"
+  - name: "SpacyTokenizer"
+  - name: "SpacyFeaturizer"
+  - name: "DIETClassifier"
+    entity_recognition: True
+    epochs: 50
+
+policies:
+  - name: TEDPolicy
+  - name: MemoizationPolicy
+  - name: MappingPolicy

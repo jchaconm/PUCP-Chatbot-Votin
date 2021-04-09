@@ -1,0 +1,167 @@
+version: "2.0"
+nlu:
+- intent: saludo
+  examples: |
+    - hola
+    - hey!
+    - buenos dias
+    - buenas Tardes
+    - buenas Noches
+    - buenas
+    - hi
+- intent: candidato
+  examples: |
+    -[Keiko Fujimori](postulant)
+    -quiero saber de [Keiko Fujimori](postulant)
+    -dime de [Keiko Fujimori](postulant)
+    -votaré por [Keiko Fujimori](postulant)
+    -escojo a [Keiko Fujimori](postulant)
+    -mi voto va para [Keiko Fujimori](postulant)
+    -Mi candidata es [Keiko Fujimori](postulant)
+    -[Keiko Fujimori](postulant)
+    -[Pedro Castillo](postulant) 
+    -quiero saber de [Pedro Castillo](postulant)
+    -[Verónika Mendoza](postulant)
+    -quiero saber de [Verónika Mendoza](postulant)
+    -[Hernando De Soto](postulant)
+    -quiero saber de [Hernando De Soto](postulant)
+    -[Daniel Urresti](postulant)
+    -quiero saber de [Daniel Urresti](postulant)
+    -[George Forsyth](postulant
+    -quiero saber de [George Forsyth](postulant)
+- synonym: Keiko Fujimori
+  examples: |
+    - Sra K
+    - La china
+    - Fujimori 
+    - Fuerza Popular 
+- synonym: Pedro Castillo
+  examples: |
+    - Lapicito
+    - El profe
+    - Peru Libre
+- synonym: Verónika Mendoza
+  examples: |
+    - La vero
+    - Verónika
+    - Terronika
+    - Juntos por el Perú
+- synonym: Hernando De Soto
+  examples: |
+    - Hernando De Poto
+    - De Soto
+    - Tio De Soto 
+    - Avanza Pais
+- synonym: Daniel Urresti
+  examples: |
+    - El general
+    - Tio Urresti
+    - Urresti
+    - Churresti
+    - Podemos Peru
+- synonym: George Forsyth
+  examples: |
+    - Forsay
+    - Tio Ken
+    - Forsyth
+    - Victoria Nacional
+    
+
+  
+- intent: button
+  examples: |
+    - BOTONES
+    - Dame un botón
+    - Quiero seleccionar botones
+    - Botones a mi
+- intent: helloworld
+  examples: |
+    - hello world
+    - hola mundo
+    - houston
+    - yakarta
+- intent: goodbye
+  examples: |
+    - chau
+    - nos vemos
+    - hasta luego
+    - xau
+    - hasta pronto
+- intent: seleccion_candidato
+  examples: |
+    -[Keiko Fujimori](postulant)
+    -quiero saber de [Keiko Fujimori](postulant)
+    -dime de [Keiko Fujimori](postulant)
+    -votaré por [Keiko Fujimori](postulant)
+    -escojo a [Keiko Fujimori](postulant)
+    -mi voto va para [Keiko Fujimori](postulant)
+    -Mi candidata es [Keiko Fujimori](postulant)
+    -[Keiko Fujimori](postulant)
+    -[Pedro Castillo](postulant) 
+    -quiero saber de [Pedro Castillo](postulant)
+    -[Verónika Mendoza](postulant)
+    -quiero saber de [Verónika Mendoza](postulant)
+    -[Hernando De Soto](postulant)
+    -quiero saber de [Hernando De Soto](postulant)
+    -[Daniel Urresti](postulant)
+    -quiero saber de [Daniel Urresti](postulant)
+    -[George Forsyth](postulant
+    -quiero saber de [George Forsyth](postulant)
+- intent: opcion_seleccion_hoja
+  examples: |
+    - Hoja de vida
+    - CV
+- intent: opcion_seleccion_plan
+  examples: |
+    - Plan de gobierno
+    - Plan
+- intent: opcion_plan_visualizar
+  examples: |
+    - Visualizar
+    - Quiero leerlo
+- intent: opcion_plan_preguntar
+  examples: |
+    - Pregunta
+    - Quiero preguntar
+
+- intent: tema_plan
+  examples: |
+    - Economía
+    - Salud
+    - Educación
+    - Trabajo y promoción del empleo
+    - Seguridad ciudadana
+- intent: pregunta_plan_economia
+  examples: |
+    - ¿Qué hará en economia?
+    - ¿Cómo mejorará la inversión?
+    - ¿Cómo detener la inflación?
+    - ¿Otorgará bonos?
+    - ¿Cómo aumentará el gasto fiscal?
+- intent: pregunta_plan_salud
+  examples: |
+    - ¿Cómo luchará contra el covid?
+    - ¿Qué vacunas comprará?
+    - ¿Cómo se hará el plan de vacunación?
+    - ¿Cuál será la estrategia para la pandemia?
+- intent: pregunta_plan_educacion
+  examples: |
+    - ¿Se aumentará el PBI en educación?
+    - ¿Se dará un aumento de sueldo a los profesores?
+    - ¿Se comprará tablets?
+    - ¿Cómo mejorar las clases remotas?
+- intent: pregunta_plan_trabajo
+  examples: |
+    - ¿Qué plan ejecutará para mejorar las condiciones laborales?
+    - ¿Cómo dará más plazas de trabajo?
+    - ¿Cómo reducirá el empleo informal?
+    - ¿Cómo disminuir el desempleo?
+
+- intent: pregunta_plan_seguridad
+  examples: |
+    - ¿Qué hará para combatir la inseguridad?
+    - ¿Se hará reforma en la policia?
+    - ¿Qué realizará en temas de inteligencia?
+    - ¿Qué hara para luchar contra la delincuencia extranjera?
+    - ¿Cómo detectará los implicados en robos?
+

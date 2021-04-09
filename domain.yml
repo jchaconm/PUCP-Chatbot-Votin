@@ -1,0 +1,61 @@
+actions:
+- utter_greet
+- utter_opcion_seleccion
+- utter_hojavida
+- utter_tema_plan
+- utter_opcion_plan
+- utter_info_tema_plan
+- utter_solicitar_pregunta
+- utter_respuesta_pregunta
+- utter_goodbye
+- utter_candidato
+- action_helloworld
+- action_buttons_topics
+
+entities:
+- postulant
+
+slots:
+  postulant:
+    type: unfeaturized
+    
+intents:
+  - saludo
+  - button
+  - helloworld
+  - candidato
+  - goodbye
+  - seleccion_candidato
+  - opcion_seleccion_hoja
+  - opcion_seleccion_plan
+  - opcion_plan_visualizar
+  - opcion_plan_preguntar
+  - hojavida
+  - opcion_plan
+  - tema_plan 
+  - pregunta_plan_economia
+  - pregunta_plan_salud
+  - pregunta_plan_educacion
+  - pregunta_plan_trabajo
+  - pregunta_plan_seguridad
+responses:
+  utter_candidato:
+  - text: "Pa eso votas"
+  utter_greet:
+  - text: "Hola.Bienvenido a Votin. Ingrese un candidato"
+  utter_opcion_seleccion:
+  - text: "Desea saber el plan de gobierno o la hoja de vida"
+  utter_tema_plan:
+  - text: "Seleccione el tema de plan de Gobierno"
+  utter_info_tema_plan:
+  - text: "Su candidato dice lo siguiente: Lorem ipsus"
+  utter_opcion_plan:
+  - text: "Desea ver las propuestas o hacer una pregunta?"
+  utter_solicitar_pregunta:
+  - text: "Realice su pregunta"
+  utter_respuesta_pregunta:
+  - text: "Esta es una pregunta generica"
+  utter_hojavida:
+  - text: "La hoja de vida de su candidato es la siguiente"
+  utter_goodbye:
+  - text: "Me voy a dormir. No te olvides de ir a votar en tu hora y con la protección adecuada."
