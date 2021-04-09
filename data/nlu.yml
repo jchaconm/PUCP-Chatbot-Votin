@@ -11,41 +11,76 @@ nlu:
     - hi
 - intent: candidato
   examples: |
-    -[Keiko Fujimori](postulant)
-    -quiero saber de [Keiko Fujimori](postulant)
-    -dime de [Keiko Fujimori](postulant)
-    -votaré por [Keiko Fujimori](postulant)
-    -escojo a [Keiko Fujimori](postulant)
-    -mi voto va para [Keiko Fujimori](postulant)
-    -Mi candidata es [Keiko Fujimori](postulant)
-    -[Keiko Fujimori](postulant)
-    -[Pedro Castillo](postulant) 
-    -quiero saber de [Pedro Castillo](postulant)
-    -[Verónika Mendoza](postulant)
-    -quiero saber de [Verónika Mendoza](postulant)
-    -[Hernando De Soto](postulant)
-    -quiero saber de [Hernando De Soto](postulant)
-    -[Daniel Urresti](postulant)
-    -quiero saber de [Daniel Urresti](postulant)
-    -[George Forsyth](postulant
-    -quiero saber de [George Forsyth](postulant)
+    - [Keiko Fujimori](postulant)
+    - quiero saber de [Keiko Fujimori](postulant)
+    - dime de [Keiko Fujimori](postulant)
+    - votaré por [Keiko Fujimori](postulant)
+    - escojo a [Keiko Fujimori](postulant)
+    - mi voto va para [Keiko Fujimori](postulant)
+    - mi candidata es [Keiko Fujimori](postulant)
+    - [Pedro Castillo](postulant) 
+    - quiero saber de [Pedro Castillo](postulant)
+    - dime de [Pedro Castillo](postulant)
+    - elijo a [Pedro Castillo](postulant)
+    - votaré por [Pedro Castillo](postulant)
+    - escojo a [Pedro Castillo](postulant)
+    - mi voto va para [Pedro Castillo](postulant)
+    - mi candidato es [Pedro Castillo](postulant)
+    - [Verónika Mendoza](postulant)
+    - quiero saber de [Verónika Mendoza](postulant)
+    - dime de [Verónika Mendoza](postulant)
+    - elijo a [Verónika Mendoza](postulant)
+    - votaré por [Verónika Mendoza](postulant)
+    - escojo a [Verónika Mendoza](postulant)
+    - mi voto va para [Verónika Mendoza](postulant)
+    - mi candidato es [Verónika Mendoza](postulant)
+    - [Hernando De Soto](postulant)
+    - quiero saber de [Hernando De Soto](postulant)
+    - dime de [Hernando De Soto](postulant)
+    - elijo a [Hernando De Soto](postulant)
+    - votaré por [Hernando De Soto](postulant)
+    - escojo a [Hernando De Soto](postulant)
+    - mi voto va para [Hernando De Soto](postulant)
+    - mi candidato es [Hernando De Soto](postulant)
+    - [Daniel Urresti](postulant)
+    - quiero saber de [Daniel Urresti](postulant)
+    - dime de [Daniel Urresti](postulant)
+    - elijo a [Daniel Urresti](postulant)
+    - votaré por [Daniel Urresti](postulant)
+    - escojo a [Daniel Urresti](postulant)
+    - mi voto va para [Daniel Urresti](postulant)
+    - mi candidato es [Daniel Urresti](postulant)
+    - [George Forsyth](postulant
+    - quiero saber de [George Forsyth](postulant)
+    - dime de [George Forsyth](postulant)
+    - elijo a [George Forsyth](postulant)
+    - votaré por [George Forsyth](postulant)
+    - escojo a [George Forsyth](postulant)
+    - mi voto va para [George Forsyth](postulant)
+    - mi candidato es [George Forsyth](postulant)
 - synonym: Keiko Fujimori
   examples: |
     - Sra K
-    - La china
-    - Fujimori 
-    - Fuerza Popular 
+    - la china
+    - keiko
+    - fujimori 
+    - fuerza Popular 
 - synonym: Pedro Castillo
   examples: |
     - Lapicito
+    - lapiz
     - El profe
     - Peru Libre
+    - pedro
+    - señor castillo
+    - sr castillo
 - synonym: Verónika Mendoza
   examples: |
     - La vero
     - Verónika
     - Terronika
     - Juntos por el Perú
+    - izquierda
 - synonym: Hernando De Soto
   examples: |
     - Hernando De Poto
@@ -64,22 +99,14 @@ nlu:
     - Forsay
     - Tio Ken
     - Forsyth
-    - Victoria Nacional
-    
-
-  
+    - Victoria Nacional 
 - intent: button
   examples: |
     - BOTONES
     - Dame un botón
     - Quiero seleccionar botones
     - Botones a mi
-- intent: helloworld
-  examples: |
-    - hello world
-    - hola mundo
-    - houston
-    - yakarta
+    - opciones
 - intent: goodbye
   examples: |
     - chau
@@ -89,24 +116,53 @@ nlu:
     - hasta pronto
 - intent: seleccion_candidato
   examples: |
-    -[Keiko Fujimori](postulant)
-    -quiero saber de [Keiko Fujimori](postulant)
-    -dime de [Keiko Fujimori](postulant)
-    -votaré por [Keiko Fujimori](postulant)
-    -escojo a [Keiko Fujimori](postulant)
-    -mi voto va para [Keiko Fujimori](postulant)
-    -Mi candidata es [Keiko Fujimori](postulant)
-    -[Keiko Fujimori](postulant)
-    -[Pedro Castillo](postulant) 
-    -quiero saber de [Pedro Castillo](postulant)
-    -[Verónika Mendoza](postulant)
-    -quiero saber de [Verónika Mendoza](postulant)
-    -[Hernando De Soto](postulant)
-    -quiero saber de [Hernando De Soto](postulant)
-    -[Daniel Urresti](postulant)
-    -quiero saber de [Daniel Urresti](postulant)
-    -[George Forsyth](postulant
-    -quiero saber de [George Forsyth](postulant)
+    - [Keiko Fujimori](postulant)
+    - quiero saber de [Keiko Fujimori](postulant)
+    - dime de [Keiko Fujimori](postulant)
+    - votaré por [Keiko Fujimori](postulant)
+    - escojo a [Keiko Fujimori](postulant)
+    - mi voto va para [Keiko Fujimori](postulant)
+    - mi candidata es [Keiko Fujimori](postulant)
+    - [Pedro Castillo](postulant) 
+    - quiero saber de [Pedro Castillo](postulant)
+    - dime de [Pedro Castillo](postulant)
+    - elijo a [Pedro Castillo](postulant)
+    - votaré por [Pedro Castillo](postulant)
+    - escojo a [Pedro Castillo](postulant)
+    - mi voto va para [Pedro Castillo](postulant)
+    - mi candidato es [Pedro Castillo](postulant)
+    - [Verónika Mendoza](postulant)
+    - quiero saber de [Verónika Mendoza](postulant)
+    - dime de [Verónika Mendoza](postulant)
+    - elijo a [Verónika Mendoza](postulant)
+    - votaré por [Verónika Mendoza](postulant)
+    - escojo a [Verónika Mendoza](postulant)
+    - mi voto va para [Verónika Mendoza](postulant)
+    - mi candidato es [Verónika Mendoza](postulant)
+    - [Hernando De Soto](postulant)
+    - quiero saber de [Hernando De Soto](postulant)
+    - dime de [Hernando De Soto](postulant)
+    - elijo a [Hernando De Soto](postulant)
+    - votaré por [Hernando De Soto](postulant)
+    - escojo a [Hernando De Soto](postulant)
+    - mi voto va para [Hernando De Soto](postulant)
+    - mi candidato es [Hernando De Soto](postulant)
+    - [Daniel Urresti](postulant)
+    - quiero saber de [Daniel Urresti](postulant)
+    - dime de [Daniel Urresti](postulant)
+    - elijo a [Daniel Urresti](postulant)
+    - votaré por [Daniel Urresti](postulant)
+    - escojo a [Daniel Urresti](postulant)
+    - mi voto va para [Daniel Urresti](postulant)
+    - mi candidato es [Daniel Urresti](postulant)
+    - [George Forsyth](postulant
+    - quiero saber de [George Forsyth](postulant)
+    - dime de [George Forsyth](postulant)
+    - elijo a [George Forsyth](postulant)
+    - votaré por [George Forsyth](postulant)
+    - escojo a [George Forsyth](postulant)
+    - mi voto va para [George Forsyth](postulant)
+    - mi candidato es [George Forsyth](postulant)
 - intent: opcion_seleccion_hoja
   examples: |
     - Hoja de vida
